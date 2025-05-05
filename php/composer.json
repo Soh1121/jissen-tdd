@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "JissenTdd\\": "src/"
+            "JissenTdd\\": "src/",
+            "UnitTest\\": "tests/Unit/"
         }
     },
     "require": {
@@ -16,6 +17,7 @@
         "codeception/module-asserts": "^3.1"
     },
     "scripts": {
-        "codecept": "codecept run --steps"
+        "codecept": "codecept run --steps",
+        "phpunit": "phpunit tests/Unit"
     }
 }
