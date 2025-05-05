@@ -9,5 +9,5 @@ services:
       - "8000:80"
     volumes:
       - type: bind
-        source: "./src"
+        source: "./php"
         target: "/var/www/html"

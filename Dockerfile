@@ -3,6 +3,7 @@ FROM php:8.4-apache
 ENV TZ=Asia/Tokyo
 
 RUN apt-get update \
+    && apt-get install -y git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
