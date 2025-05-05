@@ -1,0 +1,10 @@
+{
+    "name": "soh1121/jissen-tdd",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "JissenTdd\\": "src/"
+        }
+    },
+    "require": {}
+}
